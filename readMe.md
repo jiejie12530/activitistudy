@@ -3,4 +3,4 @@
 study1是原始的配置,未修改项目名,注意将java加入project structure中resources,resources加入resources,至此启动  
 Study1Application即可启动项目,访问http://127.0.0.1:8888/activiti/create即可进入activiti流程图的新建页面    
 study2修改项目名为act,这里除了要修改application.properties中,还要修改app-cfg.js中'contextRoot': '/service'  
-为'contextRoot': '/act/service'
+为'contextRoot': '/act/service',至此访问地址变为http://127.0.0.1:8888/act/activiti/create
